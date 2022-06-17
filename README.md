@@ -130,6 +130,13 @@ personal.unlockAccount(eth.accounts[0], "0")
 - 出生证明 (STA颁发)
 - 自我介绍的视频
 
+```bash
+#上传文件的命令
+ipfs add ~/testIpfs.txt
+#上传文件夹的命令
+ipfs add -r ~/testFolder
+```
+
 ![image-20220612002154214](https://s2.loli.net/2022/06/12/lBIaA4yiDK1FQLp.png)
 
 ### 3.2 填写并将NFT对应的元数据文件传到IPFS上
